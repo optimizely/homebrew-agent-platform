@@ -1,13 +1,12 @@
 # Generated on release. Do not hand-edit version or sha256.
 cask "optimizely-agent-platform" do
-  version "0.0.0"
-  sha256 "REPLACE_WITH_SHA256_FROM_LATEST_JSON"
+  version "0.0.7"
+  sha256 "eb00416140f7e00fa68938adb5aa57416543625d9babd20d660dbf8fb1abb385"
 
   # Universal (arm64 + x86_64) DMG — no on_arm / on_intel split needed.
   # Version-pinned URLs are immutable, so this sha256 cannot go stale.
   url "https://dl.opal.optimizely.com/desktop/macos/#{version}/Opal-#{version}-universal.dmg"
-  name "Opal"
-  desc "AI assistant for Optimizely"
+  name "Optimizely Agent Platform"
   homepage "https://opal.optimizely.com"
 
   livecheck do
