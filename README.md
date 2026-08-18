@@ -1,4 +1,4 @@
-# homebrew-opal
+# homebrew-agent-platform
 
 Homebrew tap for [Opal Desktop](https://opal.optimizely.com) — Optimizely's AI
 assistant for macOS.
@@ -6,25 +6,25 @@ assistant for macOS.
 ## Install
 
 ```bash
-brew tap optimizely/opal
-brew install --cask opal-desktop
+brew tap optimizely/agent-platform
+brew install --cask optimizely-agent-platform
 ```
 
 ## Upgrade
 
 ```bash
-brew upgrade --cask opal-desktop
+brew upgrade --cask optimizely-agent-platform
 ```
 
 ## Install a specific version
 
 ```bash
-brew install --cask optimizely/opal/opal-desktop@1.2.3
+brew install --cask optimizely/agent-platform/optimizely-agent-platform@1.2.3
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall --cask opal-desktop
-brew zap --cask opal-desktop      # also removes preferences and app data
+brew uninstall --cask optimizely-agent-platform
+brew zap --cask optimizely-agent-platform      # also removes preferences and app data
 ```

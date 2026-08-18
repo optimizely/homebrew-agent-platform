@@ -1,5 +1,5 @@
 # Generated on release. Do not hand-edit version or sha256.
-cask "opal-desktop" do
+cask "optimizely-agent-platform" do
   version "0.0.0"
   sha256 "REPLACE_WITH_SHA256_FROM_LATEST_JSON"
 
