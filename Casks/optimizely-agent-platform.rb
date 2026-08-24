@@ -18,10 +18,10 @@ cask "optimizely-agent-platform" do
 
   depends_on macos: ">= :ventura"
 
-  app "Opal.app"
+  app "Optimizely Agent Platform.app"
 
   zap trash: [
-    "~/Library/Application Support/Opal",
+    "~/Library/Application Support/Optimizely Agent Platform",
     "~/Library/Preferences/com.optimizely.opal.plist",
     "~/Library/Saved Application State/com.optimizely.opal.savedState",
   ]
