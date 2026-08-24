@@ -1,5 +1,5 @@
 # Generated on release. Do not hand-edit version or sha256.
-cask "optimizely-agent-platform" do
+cask "optimizely-agent-platform@0.0.23" do
   version "0.0.23"
   sha256 "887178043bdeddcef7981118e9ddc0d8aa5d0cfd70bec527b828ab0c7fef24fc"
 
@@ -18,10 +18,10 @@ cask "optimizely-agent-platform" do
 
   depends_on macos: ">= :ventura"
 
-  app "Optimizely Agent Platform.app"
+  app "Opal.app"
 
   zap trash: [
-    "~/Library/Application Support/Optimizely Agent Platform",
+    "~/Library/Application Support/Opal",
     "~/Library/Preferences/com.optimizely.opal.plist",
     "~/Library/Saved Application State/com.optimizely.opal.savedState",
   ]
