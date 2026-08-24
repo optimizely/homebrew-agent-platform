@@ -1,5 +1,5 @@
 # Generated on release. Do not hand-edit version or sha256.
-cask "optimizely-agent-platform" do
+cask "optimizely-agent-platform@0.0.21" do
   version "0.0.21"
   sha256 "894fbdb88a5b27b430d4dc507f653d3e5a986446500e7e8705372107949ef070"
 
