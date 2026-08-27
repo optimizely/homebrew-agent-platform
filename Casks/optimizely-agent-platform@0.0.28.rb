@@ -5,7 +5,7 @@ cask "optimizely-agent-platform@0.0.28" do
 
   # Universal (arm64 + x86_64) DMG — no on_arm / on_intel split needed.
   # Version-pinned URLs are immutable, so this sha256 cannot go stale.
-  url "https://dl.opal.optimizely.com/desktop/macos/#{version}/Opal-#{version}-universal.dmg"
+  url "https://dl.opal.optimizely.com/desktop/macos/#{version}/OptimizelyAgentPlatform-#{version}-universal.dmg"
   name "Optimizely Agent Platform"
   homepage "https://opal.optimizely.com"
 
