@@ -5,7 +5,7 @@ cask "mark" do
 
   # Universal (arm64 + x86_64) DMG — no on_arm / on_intel split needed.
   # Version-pinned URLs are immutable, so this sha256 cannot go stale.
-  url "https://dl.opal.optimizely.com/desktop/macos/#{version}/OptimizelyAgentPlatform-#{version}-universal.dmg"
+  url "https://dl.opal.optimizely.com/desktop/macos/#{version}/Mark-#{version}-universal.dmg"
   name "Mark"
   homepage "https://opal.optimizely.com"
 
