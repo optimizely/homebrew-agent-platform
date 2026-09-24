@@ -26,5 +26,5 @@ brew install --cask optimizely/agent-platform/mark@1.2.3
 
 ```bash
 brew uninstall --cask mark
-brew zap --cask mark      # also removes preferences and app data
+brew uninstall --zap --cask mark   # also removes preferences and app data
 ```

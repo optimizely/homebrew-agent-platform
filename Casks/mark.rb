@@ -22,6 +22,7 @@ cask "mark" do
 
   zap trash: [
     "~/Library/Application Support/Mark",
+    "~/Library/Application Support/Optimizely Agent Platform",
     "~/Library/Preferences/com.optimizely.opal.plist",
     "~/Library/Saved Application State/com.optimizely.opal.savedState",
   ]
