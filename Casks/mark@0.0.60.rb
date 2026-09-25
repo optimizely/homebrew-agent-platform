@@ -1,5 +1,5 @@
 # Generated on release. Do not hand-edit version or sha256.
-cask "mark" do
+cask "mark@0.0.60" do
   version "0.0.60"
   sha256 "3bc1539e0f9c85df2b53b83cd3add9c918311b97542e6f0b6c8c6b91f77196dc"
 
