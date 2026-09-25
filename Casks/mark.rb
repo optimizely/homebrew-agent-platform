@@ -5,12 +5,12 @@ cask "mark" do
 
   # Universal (arm64 + x86_64) DMG — no on_arm / on_intel split needed.
   # Version-pinned URLs are immutable, so this sha256 cannot go stale.
-  url "https://dl.opal.optimizely.com/desktop/macos/#{version}/Mark-#{version}-universal.dmg"
+  url "https://dl.mark.optimizely.com/desktop/macos/#{version}/Mark-#{version}-universal.dmg"
   name "Mark"
-  homepage "https://opal.optimizely.com"
+  homepage "https://mark.optimizely.com/"
 
   livecheck do
-    url "https://dl.opal.optimizely.com/desktop/macos/latest.json"
+    url "https://dl.mark.optimizely.com/desktop/macos/latest.json"
     strategy :json do |json|
       json["version"]
     end
@@ -23,7 +23,11 @@ cask "mark" do
   zap trash: [
     "~/Library/Application Support/Mark",
     "~/Library/Application Support/Optimizely Agent Platform",
+    # Bundle id is migrating com.optimizely.opal -> com.optimizely.mark; clean
+    # up both so a zap works for pre- and post-rename installs.
+    "~/Library/Preferences/com.optimizely.mark.plist",
     "~/Library/Preferences/com.optimizely.opal.plist",
+    "~/Library/Saved Application State/com.optimizely.mark.savedState",
     "~/Library/Saved Application State/com.optimizely.opal.savedState",
   ]
 end
