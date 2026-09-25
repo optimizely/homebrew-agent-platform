@@ -1,30 +1,30 @@
 # homebrew-agent-platform
 
-Homebrew tap for [Opal Desktop](https://opal.optimizely.com) — Optimizely's AI
+Homebrew tap for [Mark](https://opal.optimizely.com) — Optimizely's AI
 assistant for macOS.
 
 ## Install
 
 ```bash
 brew tap optimizely/agent-platform
-brew install --cask optimizely-agent-platform
+brew install --cask mark
 ```
 
 ## Upgrade
 
 ```bash
-brew upgrade --cask optimizely-agent-platform
+brew upgrade --cask mark
 ```
 
 ## Install a specific version
 
 ```bash
-brew install --cask optimizely/agent-platform/optimizely-agent-platform@1.2.3
+brew install --cask optimizely/agent-platform/mark@1.2.3
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall --cask optimizely-agent-platform
-brew zap --cask optimizely-agent-platform      # also removes preferences and app data
+brew uninstall --cask mark
+brew uninstall --zap --cask mark   # also removes preferences and app data
 ```
