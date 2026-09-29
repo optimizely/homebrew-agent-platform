@@ -7,7 +7,9 @@ cask "mark" do
   # Version-pinned URLs are immutable, so this sha256 cannot go stale.
   url "https://dl.mark.optimizely.com/desktop/macos/#{version}/Mark-#{version}-universal.dmg"
   name "Mark"
-  homepage "https://mark.optimizely.com/"
+  # The app lives at opal.optimizely.com; only the download CDN moved to
+  # dl.mark. mark.optimizely.com does not serve.
+  homepage "https://opal.optimizely.com"
 
   livecheck do
     url "https://dl.mark.optimizely.com/desktop/macos/latest.json"
