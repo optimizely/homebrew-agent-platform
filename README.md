@@ -1,6 +1,6 @@
 # homebrew-agent-platform
 
-Homebrew tap for [Mark](https://opal.optimizely.com) — Optimizely's AI
+Homebrew tap for [Mark](https://mark.optimizely.com/) — Optimizely's AI
 assistant for macOS.
 
 ## Install
