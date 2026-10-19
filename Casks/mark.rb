@@ -1,7 +1,7 @@
 # Generated on release. Do not hand-edit version or sha256.
 cask "mark" do
-  version "0.0.74"
-  sha256 "a6b219bf5e6ddb4ade9f6e13082c434113074c9bdc59b4df7f2cd0a2a834fa44"
+  version "0.0.75"
+  sha256 "4ab8af3413f0f0a3674474064943335913967d6cfe983e26f3fe5f82e95e1427"
 
   # Universal (arm64 + x86_64) DMG — no on_arm / on_intel split needed.
   # Version-pinned URLs are immutable, so this sha256 cannot go stale.
